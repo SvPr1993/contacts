@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>CONTACTS</h1>
+    <h2>Список сотрудников</h2>
+    {% for employees_list in employees_list %}
+    <li>{{ employees_list }} {{ employees_list.id }}</li>
+    {% endfor %}
+    <li>{{ employeer }}</li>
+{% endblock %}

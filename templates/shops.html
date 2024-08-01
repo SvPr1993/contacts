@@ -1,0 +1,8 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>SHOPS</h1>
+    <h2>Список организаций</h2>
+    {% for shops_list in shops_list %}
+    <li>{{ shops_list }}</li>
+    {% endfor %}
+{% endblock %}

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+<a href="{% url 'contacts' %}">Контакты</a>
+<a href="{% url 'shops' %}">Магазины</a>
+{% block content %}
+{% endblock %}
+
+
+</body>
+</html>
